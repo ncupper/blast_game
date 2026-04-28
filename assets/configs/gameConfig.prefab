@@ -1,0 +1,137 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "",
+    "_objFlags": 0,
+    "_native": "",
+    "data": {
+      "__id__": 1
+    },
+    "optimizationPolicy": 0,
+    "asyncLoadAssets": false,
+    "readonly": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "gameConfig",
+    "_objFlags": 0,
+    "_parent": null,
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 2
+      }
+    ],
+    "_prefab": {
+      "__id__": 3
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 0,
+      "height": 0
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 0,
+    "groupIndex": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "c5399mnkYpJ645dq12m+Ymo",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "Width": 9,
+    "Height": 10,
+    "TilePrefabs": [
+      {
+        "__uuid__": "4dd0e51f-6f02-4620-a563-f2fe7fb2e0ed"
+      },
+      {
+        "__uuid__": "f6fc000d-4331-4551-92b7-9c7c3d1d3071"
+      },
+      {
+        "__uuid__": "0b3caa98-e1e6-43e2-bb8d-09d319783eec"
+      },
+      {
+        "__uuid__": "55038965-3b5a-4214-aa49-6415c2bfa864"
+      },
+      {
+        "__uuid__": "51d0d6de-1634-4cdb-929c-ca0339282986"
+      },
+      {
+        "__uuid__": "eebc5d37-2a8d-4a70-8959-8df9f373d775"
+      },
+      {
+        "__uuid__": "28664d23-ccbf-488c-8b29-9860fd0b7825"
+      },
+      {
+        "__uuid__": "cd34d378-3831-49e9-8104-8cab01cf7425"
+      },
+      {
+        "__uuid__": "9dc1eb16-7579-41bd-9f8b-901ee4c12c26"
+      }
+    ],
+    "BonusTiles": [
+      6,
+      7,
+      8,
+      9
+    ],
+    "Moves": 25,
+    "WinScore": 175,
+    "Shuffles": 3,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__id__": 0
+    },
+    "fileId": "",
+    "sync": false
+  }
+]
