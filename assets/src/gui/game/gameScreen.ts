@@ -36,7 +36,7 @@ export default class GameScreen extends cc.Component {
         getEventBus().on(GameEvents.GameOver, this.onGameOver, this);
         
         this._game.setup(this._config);
-        this.tilesRoot.node.on(cc.Node.EventType.MOUSE_DOWN, this.onTilesClicked, this);
+        this.tilesRoot.node.on(cc.Node.EventType.TOUCH_END, this.onTilesClicked, this);
     }
 
     private onTilesClicked(event: cc.Event.EventMouse) {
